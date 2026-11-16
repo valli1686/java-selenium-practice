@@ -39,7 +39,7 @@ public class EnterLoginDetails {
             );
 
             // Enter password from environment variable
-            String passwordValue = System.getenv("Srivalli1686$");
+            String passwordValue = System.getenv("password");
 
             if (passwordValue == null || passwordValue.isEmpty()) {
                 System.out.println("Set MAYA_PASSWORD environment variable.");

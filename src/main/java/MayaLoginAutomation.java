@@ -34,7 +34,7 @@ public class MayaLoginAutomation {
             WebElement password = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(By.name("password"))
             );
-            password.sendKeys("Srivalli1686$");
+            password.sendKeys("password");
             System.out.println("Password entered!");
 
             // Step 4: Submit
